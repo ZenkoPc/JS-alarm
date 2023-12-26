@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Codermk</title>
+    <link rel="stylesheet" href="./assets/css/main-codermk.min.css">
+  </head>
+  <body>
+    <main>
+      <div class="Date">
+        <p class="Date-full" id="Date-full"></p>
+      </div>
+      <div class="Clock">
+        <div class="Clock-primary" id="Clock-primary">
+          <div class="Clock-primaryInfo">
+            <div class="Clock-hour">
+              <div class="Clock-hourNumber"></div>
+              <div class="Clock-hourInfo">
+                <span class="Clock-hourSpanFull"></span>
+              </div>
+            </div>
+            <div class="Clock-separator">:</div>
+            <div class="Clock-minute">
+              <div class="Clock-minuteNumber"></div>
+              <div class="Clock-minuteInfo">
+                <span class="Clock-minuteSpanFull"></span>
+              </div>
+            </div>
+            <div class="Clock-separator">:</div>
+            <div class="Clock-second">
+              <div class="Clock-secondNumber"></div>
+              <div class="Clock-secondInfo">
+                <span class="Clock-secondSpanFull"></span>
+              </div>
+            </div>
+            <div class="Clock-meridian"></div>
+          </div>
+        </div>
+      </div>
+      <div class="Alerts"></div>
+      <div class="Modal">
+        <div class="Modal-background">
+          <div class="Modal-container">
+            <div class="Form-border">
+              <form id="Alerts-form" class="Form" method="post"></form>
+              <form id="Alerts-editForm" class="Form-edit" method="post"></form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Alert"></div>
+      <button class="Alerts-show" data-toggle="open-modal-button">
+        <p>+</p>
+      </button>
+      <button class="Theme" id="Theme-button">
+        <span class="ci--night-mode"></span>
+        <span class="ci--light"></span>
+      </button>
+    </main>
+    <script src="./assets/js/main-codermk.min.js"></script>
+  </body>
+</html>
